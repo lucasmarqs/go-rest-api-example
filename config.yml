@@ -1,0 +1,6 @@
+database_url: postgres://todoapp:todoapp@0.0.0.0/todoapp?sslmode=disable
+port: 3000
+
+test:
+  database_url: postgres://todoapp:todoapp@0.0.0.0/todoapp_test?sslmode=disable
+  port: 3030
